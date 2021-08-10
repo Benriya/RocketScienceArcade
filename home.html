@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Rocket Science</title>
+</head>
+<body>
+
+    <div class="splash">
+        <img class="fade-in" src="pictures/logo.png" alt="logo">
+    </div>
+
+    <canvas id="ex" height="800" width="600" style="border: 1px solid"></canvas>
+
+    <div id="gameSelect">
+        <div class="logo">
+            <h2 class="title">Rocket Science</h2>
+            <img src="pictures/logo.png" alt="background">
+        </div>
+        
+        <ul>
+            <li>
+                <div onclick="startGame()" class="button">
+                    <h3>GAME1</h3>
+                </div>
+            </li>
+            <li>
+                <div onclick="startGame()" class="button">
+                    <h3>GAME2</h3>
+                </div>
+            </li>
+            <li>
+                <div onclick="startGame()" class="button">
+                    <h3>GAME3</h3>
+                </div>
+            </li>
+            <li>
+                <div onclick="navigateExit()" class="button">
+                    <h3>EXIT</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>
